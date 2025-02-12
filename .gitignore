@@ -1,3 +1,4 @@
 requirements.in
 WebRAG.ipynb
 .DS_Store
+.env

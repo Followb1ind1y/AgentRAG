@@ -151,7 +151,7 @@ Ensure you have a valid Discord bot token and the necessary dependencies install
 python src/discord_bot.py
 ```
 
-### Run the Bot
+### Output Example
 * **Chat Bot**
 
   <img src="assets/discord_chatbot.png" alt="Discord Bot Demo" width="800">
@@ -159,6 +159,25 @@ python src/discord_bot.py
 * **Summarization**
 
   <img src="assets/discord_summary.png" alt="Discord Bot Demo" width="800">
+
+## **7. Docker Usage**
+
+* Build and Run with Docker
+  ```bash
+  git clone https://github.com/Followb1ind1y/AgentRAG.git
+  cd AgentRAG
+  docker-compose build
+  docker-compose up
+  ```
+* Environment Variables for Docker
+
+  If you need to configure environment variables (e.g., API keys), create a .env file in the root directory or use the .env.example file as a template. Some important environment variables you may need are:
+  ```bash
+  # Example .env file
+  OPENAI_API_KEY=your_openai_api_key
+  PINECONE_API_KEY=your_pinecone_api_key
+  DISCORD_BOT_TOKEN=your_discord_bot_token
+  ```
 
 ## **Licence**
 
