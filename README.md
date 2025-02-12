@@ -22,7 +22,9 @@ AgentRAG/
 │   ├── discord_bot.py
 │   ├── api.py                 
 │── assets/              
-│── requirements.txt    
+│── requirements.txt  
+│── docker-compose.yml  
+│── Dockerfile
 │── README.md           
 ```
 
